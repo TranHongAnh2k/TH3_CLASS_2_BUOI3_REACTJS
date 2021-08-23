@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background: rgb(38, 71, 67);
+    /* height:auto; */
+    height: auto;
+    color: #fff;
+}
+.width-80{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.menu-left{
+    display: flex;
+    
+}
+.menu-left img{
+    height: 30px;
+    line-height: 20px;
+    padding-top: 20px;
+
+}
+
+header .menu-right nav ul{
+    display: flex;
+}
+header .menu-right nav ul li{
+    list-style: none;
+    padding: 15px;
+
+}
+header .menu-right nav ul li:last-child{
+    padding: none;
+}
+header .menu-right nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header .menu-right nav ul li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    height: 644px;
+    width: auto;
+    background-image: url("./images/banner.jpg") ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+.banner h2{
+    font-size: 60px;
+    font-weight: 100px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+.banner h2 span{
+    font-weight: 800px;
+}
+.banner h3{
+    font-size: 36px;
+}
+.banner h3 span{
+    font-size: 36px;
+    color: green;
+}
+h5{
+    margin: 0 10px;
+}
+.banner h5::before{
+    content: "----";
+    position: relative;
+    margin-right: 10px;
+}
+.banner h5::after{
+    content: "----";
+    position: relative;
+    padding-left: 10px;
+}
+.banner ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner ul li{
+    list-style: none;
+    margin: 0 5px;
+}
+.banner ul li i{
+    color: gray;
+}
+.banner ul li i:hover{
+    color:#fff;
+}
